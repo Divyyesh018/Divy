@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighborhood Skill Exchange</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Navbar (Header) */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: #007BFF; /* Bluish color */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .navbar .logo span {
+            color: #d9e6f2; /* Lighter bluish color */
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+        }
+
+        .text-content {
+            flex: 1;
+            margin-left: 50px;
+            text-align: left;
+        }
+
+        .text-content h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .text-content p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button-container a {
+            background-color: #007BFF;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .button-container a:hover {
+            background-color: #0056b3;
+        }
+
+        .image-container {
+            flex: 1;
+            text-align: center;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #007BFF; /* Bluish footer */
+            text-align: center;
+            padding: 20px;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .footer p {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            margin: 0 15px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar (Header) -->
+    <div class="navbar">
+        <div class="logo">
+            NSE<span> Neighborhood Skill Exchange</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="resources.html">Resources</a>
+            <a href="explore-skills.html">Explore Skills</a>
+            <a href="community.html">Community</a>
+            <a href="events.html">Events</a>
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Image Container -->
+        <div class="image-container">
+            <img src="images/community.jpg" alt="Neighborhood community">
+        </div>
+
+        <!-- Text Content -->
+        <div class="text-content">
+            <h1>Neighborhood Skill Exchange</h1>
+            <p>At Neighborhood Skill Exchange, our mission is to connect neighbors through the sharing of skills and services.</p>
+            <p>We believe everyone has something valuable to offer. By exchanging knowledge and help, we build stronger, more connected communities.</p>
+            <p>Through collaboration and mutual support, we aim to create a neighborhood where everyone grows and thrives together.</p>
+            <div class="button-container">
+                <a href="joinus.html">Join Us Now</a>
+                <a href="how-we-work.html">How We Work</a>
+                <a href="about-us.html">About Us</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; Neighborhood Skill Exchange | All Rights Reserved NSE</p>
+        <p>Email: <a href="mailto:contact@nse.com">contact@nse.com</a> | Phone: +91 8888888888</p>
+        <p>
+            <a href="home.html">Home</a> |
+            <a href="resources.html">Resources</a> |
+            <a href="explore-skills.html">Explore Skills</a> |
+            <a href="community.html">Community</a> |
+            <a href="events.html">Events</a> |
+            <a href="https://facebook.com">Facebook</a> |
+            <a href="https://instagram.com">Instagram</a>
+        </p>
+    </div>
+
+</body>
+</html>

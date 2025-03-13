@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - Neighborhood Skill Exchange</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        /* Navbar (Header) */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: #007BFF; /* Bluish color */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .navbar .logo span {
+            color: #d9e6f2; /* Lighter bluish color */
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 100px 50px;
+            text-align: center;
+            flex: 1; /* Allows main to take up the remaining space */
+        }
+
+        main h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        main p {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .sign-up-btn {
+            background-color: #007BFF;
+            color: white;
+            font-size: 24px;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .sign-up-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #007BFF; /* Bluish footer */
+            text-align: center;
+            padding: 20px;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .footer p {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            margin: 0 15px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar (Header) -->
+    <div class="navbar">
+        <div class="logo">
+            NSE<span> Neighborhood Skill Exchange</span>
+        </div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="resources.html">Resources</a>
+            <a href="explore-skills.html">Explore Skills</a>
+            <a href="community.html">Community</a>
+            <a href="events.html">Events</a>
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <main>
+        <h1>Join Us Now!</h1>
+        <p>Become a part of the growing community where neighbors connect through the sharing of skills and services. Everyone has something valuable to offer, and by exchanging knowledge and help, we build stronger, more connected communities.</p>
+        <p>Sign up today and start sharing your skills with your neighbors while learning new ones. It's quick, easy, and completely free!</p>
+        <a href="signup.html" class="sign-up-btn">Sign-Up Now</a>
+    </main>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; Neighborhood Skill Exchange | All Rights Reserved NSE</p>
+        <p>Email: <a href="mailto:contact@nse.com">contact@nse.com</a> | Phone: +91 8888888888</p>
+        <p>
+            <a href="home.html">Home</a> |
+            <a href="resources.html">Resources</a> |
+            <a href="explore-skills.html">Explore Skills</a> |
+            <a href="community.html">Community</a> |
+            <a href="events.html">Events</a> |
+            <a href="https://facebook.com">Facebook</a> |
+            <a href="https://instagram.com">Instagram</a>
+        </p>
+    </div>
+
+</body>
+</html>

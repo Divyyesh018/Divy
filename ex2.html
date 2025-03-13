@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighborhood Skill Exchange</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        /* Navbar (Header) */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .navbar .logo span {
+            color: rgb(158, 158, 180);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section - Home */
+        #home {
+            padding: 80px 50px;
+            text-align: center;
+        }
+
+        #home h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        #home p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .cta-btn {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        .cta-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* About Us Section */
+        #about {
+            padding: 80px 50px;
+        }
+
+        #about h1 {
+            font-size: 36px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        .resource-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        .resource {
+            width: 30%;
+            text-align: center;
+        }
+
+        .resource h3 {
+            font-size: 24px;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+
+        .resource p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Sign-Up Section */
+        #sign-up {
+            padding: 80px 50px;
+            text-align: center;
+        }
+
+        #sign-up h1 {
+            font-size: 36px;
+            margin-bottom: 50px;
+        }
+
+        .sign-up-form {
+            display: inline-block;
+            text-align: left;
+            width: 300px;
+        }
+
+        .sign-up-form label {
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .sign-up-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .sign-up-btn {
+            background-color: #007BFF;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .sign-up-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: white;
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+            margin-top: 50px;
+        }
+
+        .footer p {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            margin: 0 15px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar (Header) -->
+    <div class="navbar">
+        <div class="logo">
+            NSE<span> Neighborhood Skill Exchange</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#sign-up">Sign-Up</a>
+            <a href="#">Explore Skills</a>
+            <a href="#">Community</a>
+            <a href="#">Events</a>
+        </div>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Neighborhood Skill Exchange</h1>
+        <p>Connecting neighbors to exchange skills, learn new talents, and grow together.</p>
+        <p>Join a community of passionate learners and skilled neighbors ready to collaborate.</p>
+        <a href="#sign-up" class="cta-btn">Get Started</a>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h1>About Us</h1>
+        <div class="resource-container">
+            <div class="resource">
+                <h3>Skill Exchange Guide</h3>
+                <p>Learn how to effectively exchange skills with your neighbors and maximize the benefits of community collaboration.</p>
+            </div>
+            <div class="resource">
+                <h3>Tools for Scheduling</h3>
+                <p>Utilize our easy-to-use scheduling tools to plan your skill exchange activities and stay organized.</p>
+            </div>
+            <div class="resource">
+                <h3>Neighbor Stories & Testimonials</h3>
+                <p>Read inspiring stories from your neighbors about how skill exchanges have impacted their lives and built lasting connections.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sign-Up Section -->
+    <section id="sign-up">
+        <h1>Sign-Up</h1>
+        <div class="sign-up-form">
+            <form action="#" method="POST">
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit" class="sign-up-btn">Sign-Up</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; Neighborhood Skill Exchange | All Rights Reserved NSE</p>
+        <p>Email: <a href="mailto:contact@nse.com">contact@nse.com</a> | Phone: +91 8888888888</p>
+        <p>
+            <a href="#home">Home</a> |
+            <a href="#about">About Us</a> |
+            <a href="#sign-up">Sign-Up</a> |
+            <a href="#">Explore Skills</a> |
+            <a href="#">Community</a> |
+            <a href="#">Events</a> |
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a>
+        </p>
+    </div>
+
+</body>
+</html>

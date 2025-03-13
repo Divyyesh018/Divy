@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fable Flow - Immersive Storytelling</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Navbar (Header) */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: #222;
+            color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        .auth-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .auth-links a {
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 15px;
+            border: 1px solid #007BFF;
+            color: #007BFF;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .auth-links a:hover {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        /* Main Section */
+        main {
+            flex-grow: 1;
+            padding: 100px 50px;
+            text-align: center;
+        }
+
+        main h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        main p {
+            font-size: 24px;
+            color: #555;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .start-btn {
+            background-color: #007BFF;
+            color: white;
+            font-size: 24px;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .start-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            margin: 0 15px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar (Header) -->
+    <div class="navbar">
+        <div class="logo">
+            FableFLOW
+        </div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+        </div>
+        <div class="auth-links">
+            <a href="signup.html">Sign-Up</a>
+            <a href="login.html">Login</a>
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <main>
+        <h1>Start Now</h1>
+        <p>Work with others in real-time to build immersive stories together. Turn simple prompts into unique stories that reflect your creativity.</p>
+        <a href="start.html" class="start-btn">Start Creating</a>
+    </main>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; Fable Flow | All Rights Reserved</p>
+        <p>Email: <a href="mailto:contact@fableflow.com">contact@fableflow.com</a> | Phone: +1 (123) 456-9999</p>
+        <p>Address: FableFlow Club, Ahmedabad, Gujarat, India</p>
+    </div>
+
+</body>
+</html>

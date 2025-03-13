@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Neighborhood Skill Exchange</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        /* Navbar (Header) */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: #007BFF; /* Bluish color */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .navbar .logo span {
+            color: #d9e6f2; /* Lighter bluish color */
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 50px;
+            flex: 1;
+            text-align: center;
+        }
+
+        main h1 {
+            font-size: 40px;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        .resources-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .resource-card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .resource-card:hover {
+            transform: scale(1.05);
+        }
+
+        .resource-card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #007BFF;
+        }
+
+        .resource-card p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .resource-card a {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .resource-card a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #007BFF; /* Bluish footer */
+            text-align: center;
+            padding: 20px;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .footer p {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            margin: 0 15px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar (Header) -->
+    <div class="navbar">
+        <div class="logo">
+            NSE<span> Neighborhood Skill Exchange</span>
+        </div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="resources.html">Resources</a>
+            <a href="explore-skills.html">Explore Skills</a>
+            <a href="community.html">Community</a>
+            <a href="events.html">Events</a>
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <main>
+        <h1>Helpful Resources for You</h1>
+        <div class="resources-container">
+            <div class="resource-card">
+                <h3>Skill Exchange Guide</h3>
+                <p>Learn the best practices for skill exchange and make the most of your community.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="resource-card">
+                <h3>Scheduling Tools</h3>
+                <p>Plan and schedule your skill exchange activities with ease using our tools.</p>
+                <a href="#">Access Tools</a>
+            </div>
+            <div class="resource-card">
+                <h3>Success Stories</h3>
+                <p>Get inspired by reading the stories of members who have benefited from skill exchange.</p>
+                <a href="#">Read Stories</a>
+            </div>
+            <div class="resource-card">
+                <h3>Community Forum</h3>
+                <p>Connect with other members and discuss skill exchanges on our forum.</p>
+                <a href="#">Visit Forum</a>
+            </div>
+            <div class="resource-card">
+                <h3>Video Tutorials</h3>
+                <p>Watch tutorials to improve your skills and become a better contributor to your community.</p>
+                <a href="#">Watch Videos</a>
+            </div>
+            <div class="resource-card">
+                <h3>FAQs</h3>
+                <p>Find answers to common questions about the platform and skill exchange.</p>
+                <a href="#">Read FAQs</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; Neighborhood Skill Exchange | All Rights Reserved NSE</p>
+        <p>Email: <a href="mailto:contact@nse.com">contact@nse.com</a> | Phone: +91 8888888888</p>
+        <p>
+            <a href="home.html">Home</a> |
+            <a href="resources.html">Resources</a> |
+            <a href="explore-skills.html">Explore Skills</a> |
+            <a href="community.html">Community</a> |
+            <a href="events.html">Events</a> |
+            <a href="https://facebook.com">Facebook</a> |
+            <a href="https://instagram.com">Instagram</a>
+        </p>
+    </div>
+
+</body>
+</html>
